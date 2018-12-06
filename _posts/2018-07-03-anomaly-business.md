@@ -277,3 +277,4 @@ Y.to_csv(folder+'Anomaly.csv', sep = ',')
 ___
 ![Long Term Vision]({{ site.baseurl }}/images/anomalybusiness/vision1.png)
 
+Original Post can be found [here](https://github.com/FactspanDataScience/AnomalyDetection)

@@ -50,3 +50,4 @@ Isolation forest finds perfect use here, where my data has a mix of categorical 
 
 To summarize, depending on the quality and availability of data, a business can either use supervised or unsupervised machine learning model to detect outliers and save millions of dollars if these went unnoticed.
 
+Original Post can be found [here](https://factspan.com/anomaly-detection-simplified/)
