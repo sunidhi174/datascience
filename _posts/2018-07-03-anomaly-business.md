@@ -1,5 +1,10 @@
-Anomaly Detection in Claims Submission Process
-======
+---
+title: Anomaly Detection in Claims Submission Process
+tags: [Machine Learning]
+header:
+  image: "/images/anomaly/anomaly.jpg"
+excerpt: "Various algorithms for Anomaly Detection"
+---
 
 ### Agenda of this post is: 
 * Business Problem Overview
