@@ -22,17 +22,15 @@ excerpt: "Various algorithms for Anomaly Detection"
 ## Business Problem Overview:
 
 **Current State**
+
 * Client maintains order-to-cash claims data in SAP system
 * They scrutinize every claim that are filed by different customers to **manually identify** fraudulent cases
 * Manual effort lead to:
     * Longer processing time
     * Less time for analysis and accurate decision making
-<br>
 
 **Problem Statement**
 * Build a risk assessement and scoring model which would help identify the anomalous claims
-
-<br>
 
 **Desired State**
 * Client is able to detect the anomaly quickly
@@ -76,19 +74,21 @@ ___
 
 ### Anomaly Detection Model Development
 ___
+
 ### Risk Assesment Framework
 
-**Objective of the Machine Learning model is to determine *potential risk* of a claim being fraudulent understand its key drivers, and estimate the monetary value attached to such fraudelent claims**
+Objective of the Machine Learning model is to determine *potential risk* of a claim being fraudulent understand its key drivers, and estimate the monetary value attached to such fraudelent claims
 
 ![Risk Assessment framework]({{ site.baseurl }}/images/anomalybusiness/riskassement.png)
 <br>
-**The unsupervised Machine Learning model identifies anomalous claims, and returns a risk score against each claim, that can be further drilled down to identify key factors behind high risk claims, and its business impact**
+The unsupervised Machine Learning model identifies anomalous claims, and returns a risk score against each claim, that can be further drilled down to identify key factors behind high risk claims, and its business impact
 
 ### Isolation Forest Overview
 ___
 Isolation Forest isolates observations by randomly selecting a feature (variable) and then randomly selecting a split of the selected feature, till all the instances are covered and lie in their own seperate node, hence growing a decision tree.
 <br>
 <img src = "{{ site.baseurl }}/images/anomalybusiness/isolation.png" width = "600" height = "300" >
+
 ### Key Feature
 
 * Does not require distance or density measures to detect anomalies
@@ -99,7 +99,7 @@ Isolation Forest isolates observations by randomly selecting a feature (variable
 
 ### Isolation Forest Python Demo
 
-**Isolation forest is implemented in various libraries but using sci-kit learn APIs makes life easier and it integrates really well with Pandas API and Numpy API**
+Isolation forest is implemented in various libraries but using sci-kit learn APIs makes life easier and it integrates really well with Pandas API and Numpy API
 
 
 ```python
@@ -277,7 +277,3 @@ Y.to_csv(folder+'Anomaly.csv', sep = ',')
 ___
 ![Long Term Vision]({{ site.baseurl }}/images/anomalybusiness/vision1.png)
 
-
-```python
-
-```
