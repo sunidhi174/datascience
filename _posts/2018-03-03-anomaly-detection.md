@@ -2,7 +2,7 @@
 title: Anomaly Detection Simplified
 tags: [Machine Learning]
 header:
-  image: "/images/anomaly/anomaly.jpg"
+  image: "/images/anomaly/anomaly.png"
 excerpt: "Various algorithms for Anomaly Detection"
 ---
 
