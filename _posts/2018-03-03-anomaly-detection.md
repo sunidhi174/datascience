@@ -2,7 +2,7 @@
 title: Anomaly Detection Simplified
 tags: [Machine Learning]
 header:
-  image: "/images/home-bg.jpg"
+  image: "/images/anomaly/anomaly.jpg"
 excerpt: "Various algorithms for Anomaly Detection"
 ---
 
@@ -27,6 +27,8 @@ As a human, we intuitively saw that the nearest neighbor is very far away from t
 Although extremely simple logic behind the algorithm, it has performed more robustly and accurately in spotting anomalous data when compared against complex algorithm. Since the model is overly simplified, it cannot handle categorical variable well, as it becomes incredibly difficult to calculate distances for a categorical variable.
 
 ## Business Example:
+
+![_config.yml]({{ site.baseurl }}/images/anomaly/graph-2.png)
 
 A business has recently upgraded their machineries by incorporating and want to find out reasons for regular machine breakdown. Since there’s a scarcity of good, labeled dataset, unsupervised learning can be leveraged here. Since my dataset consists only of continuous, numerical variables (as depicted in the image above) captured by the sensor, K-NN can be applied to isolate the anomalous observations.
 
