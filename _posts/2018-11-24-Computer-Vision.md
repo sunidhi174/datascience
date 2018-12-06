@@ -3,7 +3,7 @@ title: Computer Vision
 tags: [Deep Learning]
 header:
   image: "/images/cv/Assets/Images/computer-vision.jpg"
-excerpt: "Various algorithms for Anomaly Detection"
+excerpt: "A high level introduction to computer vision"
 ---
 ---
 
