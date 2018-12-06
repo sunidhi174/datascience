@@ -16,7 +16,7 @@ Before we get into understanding of machine learning techniques to filter out an
 
 It is often the case—especially when a company isn’t well established, or they’ve started a new business—there’s a paucity of labeled data. When this happens machine learning algorithms of decision trees and logistic regression fail. Data scientist must build models that can work without human supervision and detect anomalous observations, raising red flags when such an event occurs.
 
-## K-nearest neighbors (K-NN)/Local Outlier Factor:
+### K-nearest neighbors (K-NN)/Local Outlier Factor:
 
 ![_config.yml]({{ site.baseurl }}/images/anomaly/graph.png)
 
@@ -26,7 +26,7 @@ As a human, we intuitively saw that the nearest neighbor is very far away from t
 
 Although extremely simple logic behind the algorithm, it has performed more robustly and accurately in spotting anomalous data when compared against complex algorithm. Since the model is overly simplified, it cannot handle categorical variable well, as it becomes incredibly difficult to calculate distances for a categorical variable.
 
-## Business Example:
+#### Business Example:
 
 ![_config.yml]({{ site.baseurl }}/images/anomaly/graph-2.png)
 
@@ -34,7 +34,7 @@ A business has recently upgraded their machineries by incorporating and want to 
 
 Further inspection by the engineers can narrow down the root cause search. Additionally, it’ll save business millions of dollars if business builds a pipeline that’ll start flagging anomalous observations and hence pro-actively putting machine under maintenance before failure.
 
-## Isolation Forest:
+### Isolation Forest:
 
 “When nothing works, grow decision trees.” Has been a mantra that data scientists have adhered to. K-nearest neighbors although extremely simple in nature is plagued by lot of problems, like the categorical variable handling, runtime, space constraints, all these makes K-NN almost redundant when it comes to real world business use cases. In businesses, we almost always have many categorical variables and millions of data points. To tackle this, researchers developed an algorithm that could—in an unsupervised way—handle these complex problems.
 
@@ -42,7 +42,7 @@ The idea was simple grow a decision tree for all the variables. Once all the dat
 
 The advantage of this method is like decision tree, isolation forest is nonparametric and makes no assumptions about the data and hence can detect outliers from a mix of categorical and numerical variables. Another advantage is the runtime of the algorithm. It is exponentially faster than iterative K-NN algorithm and hence handle larger datasets.
 
-## Business Example:
+#### Business Example:
 
 In the age of e-commerce, we have a trove of structured click stream data, such data is almost always having many categorical variables. If a business wants to analyze why their performance has dipped, anomaly detection finds application. Since the reason for performance can be something that business hadn’t expected or is a new event that has occurred.
 
