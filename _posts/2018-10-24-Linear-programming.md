@@ -1,8 +1,6 @@
 ---
 title: Linear Programming
 tags: [Optimization]
-header:
-  image: "/images/anomaly/anomaly.jpg"
 excerpt: "Linear Programming Explained"
 ---
 
