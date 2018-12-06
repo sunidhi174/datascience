@@ -2,12 +2,12 @@
 title: Computer Vision
 tags: [Deep Learning]
 header:
-  image: "/images/cv/Assets/Images/computer-vision.jpg"
 excerpt: "A high level introduction to computer vision"
 ---
 ---
 
 ### Current Applications
+![]({{ site.baseurl }}/images/cv/Assets/Images/computer-vision.jpg)
 #### Classification
 ![]({{ site.baseurl }}/images/cv/Assets/Images/Classify.png)
 
