@@ -1,7 +1,7 @@
 ---
-title: Linear Programming
+title: Integer Programming
 tags: [Optimization]
-excerpt: "Linear Programming Explained"
+excerpt: "Integer Programming Explained"
 ---
 
 <style>
