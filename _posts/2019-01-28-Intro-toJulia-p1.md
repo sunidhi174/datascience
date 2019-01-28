@@ -30,10 +30,10 @@ In these series of tutorials we'll cover the concepts of Julia and go on to buil
 5. String Manipulation
 6. String concatentation
 7. Data Structures
-    a. Tuples
-    b. Dict
-    c. Arrays
-
+    1. Tuples
+    2. Dict
+    3. Arrays
+8. Loops
 
 ### How to print:
 
