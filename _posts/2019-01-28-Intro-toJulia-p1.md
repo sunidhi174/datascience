@@ -1,12 +1,11 @@
 ---
-title: Freezing Cycle of Lake Mendota
-tags: [Visualization]
+title: Julia In A Nutshell
+tags: [tutorial]
 header:
 excerpt: "A gentle introduction to Julia Language"
 ---
 ---
 
-# Julia In A Nutshell
 
 The official website states following about the Julia lang:
 
