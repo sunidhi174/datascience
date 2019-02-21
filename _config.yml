@@ -10,10 +10,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ronak Shah"
+title                    : "Sunidhi Duggal"
 title_separator          : "-"
-name                     : "Ronak Shah"
-description              : "Data Scientist"
+name                     : "Sunidhi Duggal"
+description              : "Business Analyst"
 url                      : "https://sunidhi174.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : sunidhi174/sunidhi174.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -85,11 +85,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ronak Shah"
-  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist"
+  name             : "Sunidhi Duggal"
+  avatar           : "/images/Avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Business Analyst"
   location         : "Bengaluru, KA"
-  email            : "hbk.ronak@gmail.com"
+  email            : "duggal.sunidhi@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -98,13 +98,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "hbk-ronak"
+  github           : "sunidhi174"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "ronakshah52" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "dsunidhi" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
